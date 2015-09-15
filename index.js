@@ -4,7 +4,7 @@ var http = require('http');
 
 // http://www.reddit.com/r/jokes
 //
-var request = http.get('http://www.reddit.com/r/oneliners/hot.json?limit=10', function (response) {
+var request = http.get('http://www.reddit.com/r/oneliners/hot.json?limit=50', function (response) {
   var responseBody = '';
 
   // concatenate data chunks to responseBody
@@ -22,7 +22,7 @@ var request = http.get('http://www.reddit.com/r/oneliners/hot.json?limit=10', fu
 
         // get array of listings
         var arrayListings = listing.data.children;
-        var random = Math.floor(Math.random() * 10) + 1;
+        var random = Math.floor(Math.random() * 50) + 1;
 
         console.log(arrayListings[random].data.title);
 
@@ -37,6 +37,4 @@ var request = http.get('http://www.reddit.com/r/oneliners/hot.json?limit=10', fu
     }
 
   });
-
-
 });
