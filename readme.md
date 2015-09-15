@@ -1,5 +1,5 @@
 # lolme
-When the going gets tough, `lolme`
+Get a random oneliner from /r/oneliners in the terminal
 
 ## Install
 ```
