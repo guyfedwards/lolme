@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Guy Edwards (@guyfedwards)",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "tardis": "index.js"
+  }
 }
