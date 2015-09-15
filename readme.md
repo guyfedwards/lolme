@@ -1,5 +1,5 @@
 # lolme
-Get a random oneliner from /r/oneliners in the terminal
+Get a random one liner from [/r/oneliners](http://reddit.com/r/oneliners) in the terminal
 
 ## Install
 ```
