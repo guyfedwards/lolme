@@ -1,6 +1,6 @@
 {
   "name": "lolme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "One liners to lighten the mood in the terminal",
   "main": "index.js",
   "scripts": {
