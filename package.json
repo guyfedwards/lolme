@@ -1,0 +1,11 @@
+{
+  "name": "lolme",
+  "version": "1.0.0",
+  "description": "One liners to lighten the mood in the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guy Edwards (@guyfedwards)",
+  "license": "ISC"
+}
