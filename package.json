@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": ["funny", "cli", "reddit"],
+  "preferGlobal": true,
   "author": "Guy Edwards (@guyfedwards)",
   "license": "MIT",
   "bin": {
